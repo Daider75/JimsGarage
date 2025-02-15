@@ -37,7 +37,7 @@ You can also mount it in the LXC with read-only (ro) permissions.
 { echo 'mp0: /mnt/lxc_shares/nas_rwx/,mp=/mnt/nas,ro=1' ; } | tee -a /etc/pve/lxc/LXC_ID.conf
 
  { echo 'mp12: /mnt/lxc_shares/movies/,mp=/mnt/movies' ; } | tee -a /etc/pve/lxc/121.conf
- { echo 'mp11: /mnt/lxc_shares/series/,mp=/mnt/movies' ; } | tee -a /etc/pve/lxc/121.conf
+ { echo 'mp11: /mnt/lxc_shares/series/,mp=/mnt/series' ; } | tee -a /etc/pve/lxc/121.conf
 ```
 
 Thanks to https://forum.proxmox.com/members/thehellsite.88343/ for tips
